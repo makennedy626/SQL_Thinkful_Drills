@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/maken/Desktop/bikeshare.db/bikeshare.db"/><window><current_tab id="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3744"/><expanded_item id="0" parent="-1"/><expanded_item id="1" parent="-1"/><expanded_item id="2" parent="-1"/><expanded_item id="3" parent="-1"/></tab_structure><tab_browse><current_table name=""/><default_encoding codec=""/><browsetable_info data="AAAAAA=="/></tab_browse><tab_sql><sql name="SQL 1">SELECT 
+	trip_id
+	duration
+FROM
+	trips
+ORDER BY duration DESC 
+LIMIT 5</sql><sql name="SQL 2">SELECT * 
+FROM 
+	stations
+WHERE station_id = 84</sql><sql name="SQL 3">SELECT * 
+FROM 
+	weather
+WHERE 
+	PrecipitationIn != 0</sql><current_tab id="2"/></tab_sql></sqlb_project>
